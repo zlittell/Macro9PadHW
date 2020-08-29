@@ -1,4 +1,4 @@
-update=8/29/2020 10:49:07 AM
+update=8/29/2020 2:35:27 PM
 version=1
 last_client=kicad
 [general]
@@ -12,11 +12,21 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=C:/Users/zlitt/OneDrive/Kicad Libraries/LTECH Page Layout.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -40,9 +50,9 @@ ViaDrill3=0.254
 ViaDiameter4=0.762
 ViaDrill4=0.254
 dPairWidth1=0.1524
-dPairGap1=0.2032
+dPairGap1=0.254
 dPairViaGap1=0.25
-dPairWidth2=0.1524
+dPairWidth2=0.2032
 dPairGap2=0.2032
 dPairViaGap2=0.2032
 SilkLineWidth=0.127
@@ -74,13 +84,13 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
-Enabled=0
+Name=VCC
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
-Type=0
-Enabled=0
+Name=GND
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -245,15 +255,5 @@ ViaDrill=0.254
 uViaDiameter=0.508
 uViaDrill=0.254
 dPairWidth=0.1524
-dPairGap=0.2032
+dPairGap=0.254
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/Users/zlitt/OneDrive/Kicad Libraries/LTECH Page Layout.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

@@ -138,41 +138,41 @@ Wire Wire Line
 	6350 3850 5800 3850
 Wire Wire Line
 	6350 3950 5800 3950
-Text GLabel 6350 4150 2    50   Input ~ 0
+Text GLabel 4250 4350 0    50   Input ~ 0
 I2C_SDA
-Text GLabel 6350 4250 2    50   Input ~ 0
+Text GLabel 4250 4450 0    50   Input ~ 0
 I2C_SCL
 Wire Wire Line
 	5800 4150 6350 4150
 Wire Wire Line
 	6350 4250 5800 4250
-Text GLabel 6350 4350 2    50   Input ~ 0
+Text GLabel 4250 4050 0    50   Input ~ 0
 UART_RX
-Text GLabel 6350 4450 2    50   Input ~ 0
+Text GLabel 4250 3950 0    50   Input ~ 0
 UART_TX
 Wire Wire Line
 	6350 4350 5800 4350
 Wire Wire Line
 	6350 4450 5800 4450
-Text GLabel 4250 3350 0    50   Input ~ 0
+Text GLabel 6350 4150 2    50   Input ~ 0
 BUTTON1
 Wire Wire Line
 	4800 3350 4250 3350
-Text GLabel 4250 3450 0    50   Input ~ 0
+Text GLabel 4250 3350 0    50   Input ~ 0
 BUTTON2
-Text GLabel 4250 3550 0    50   Input ~ 0
+Text GLabel 4250 3450 0    50   Input ~ 0
 BUTTON3
-Text GLabel 4250 3650 0    50   Input ~ 0
+Text GLabel 4250 4250 0    50   Input ~ 0
 BUTTON4
 Text GLabel 4250 3750 0    50   Input ~ 0
 BUTTON5
-Text GLabel 4250 3850 0    50   Input ~ 0
+Text GLabel 4250 3550 0    50   Input ~ 0
 BUTTON6
-Text GLabel 4250 3950 0    50   Input ~ 0
-BUTTON7
-Text GLabel 4250 4050 0    50   Input ~ 0
-BUTTON8
 Text GLabel 4250 4150 0    50   Input ~ 0
+BUTTON7
+Text GLabel 4250 3850 0    50   Input ~ 0
+BUTTON8
+Text GLabel 4250 3650 0    50   Input ~ 0
 BUTTON9
 Wire Wire Line
 	4800 4150 4250 4150
@@ -190,8 +190,7 @@ Wire Wire Line
 	4800 3550 4250 3550
 Wire Wire Line
 	4250 3450 4800 3450
-NoConn ~ 5800 4050
-Text GLabel 4250 4350 0    50   Input ~ 0
+Text GLabel 6350 4050 2    50   Input ~ 0
 ONBOARD_LED
 Wire Wire Line
 	4250 4350 4800 4350
@@ -483,9 +482,9 @@ Wire Notes Line
 	1100 5750 2300 5750
 Text Notes 1350 5750 0    50   ~ 0
 UART CONNECTOR
-Text GLabel 4250 4250 0    50   Input ~ 0
+Text GLabel 6350 4350 2    50   Input ~ 0
 TEST_IO1
-Text GLabel 4250 4450 0    50   Input ~ 0
+Text GLabel 6350 4450 2    50   Input ~ 0
 TEST_IO2
 Wire Wire Line
 	4250 4250 4800 4250
@@ -561,4 +560,6 @@ Wire Notes Line
 	3300 5650 3300 6700
 Text Notes 3400 5650 0    50   ~ 0
 EXTRA TEST IO PULLDOWNS
+Wire Wire Line
+	6350 4050 5800 4050
 $EndSCHEMATC

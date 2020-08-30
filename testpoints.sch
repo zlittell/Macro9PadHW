@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 3650 3350 0    50   Input ~ 0
-Vbus
+VBus
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F475FBF

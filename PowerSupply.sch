@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 5300 3550 0    50   Input ~ 0
-Vbus
+VBus
 $Comp
 L power:GND #PWR09
 U 1 1 5F432B80
